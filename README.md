@@ -7,6 +7,12 @@ The method of linear interpolation (lerp) to easing animations.
 ```javascript
 import lerp from 'lerpjs';
 
+/**
+ * @param {number} x - first value
+ * @param {number} y - second value
+ * @param {number} a - amount to interpolate between x and y
+ * @return {number}
+ */
 lerp(0, 100, 0.2); // => 20
 ```
 
