@@ -1,0 +1,47 @@
+{
+  "name": "lerpjs",
+  "version": "1.0.2",
+  "description": "The method of linear interpolation (lerp) to easing animations.",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir lib --no-comments --presets minify",
+    "test": "jest"
+  },
+  "keywords": [
+    "lerp",
+    "linear-interpolation",
+    "animation",
+    "animations",
+    "easing",
+    "easing-functions"
+  ],
+  "author": {
+    "name": "Przemysław Tyczyński",
+    "url": "https://tyczynski.pl",
+    "email": "przemyslaw@tyczynski.pl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyczynski/lerp.js.git"
+  },
+  "licenses": [
+    {
+      "type": "Unlicense",
+      "url": "https://github.com/tyczynski/lerp.js/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/tyczynski/lerp.js/issues"
+  },
+  "homepage": "https://github.com/tyczynski/lerp.js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "babel-preset-minify": "^0.5.0",
+    "jest": "^24.8.0"
+  }
+}
