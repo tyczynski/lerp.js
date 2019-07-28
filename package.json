@@ -1,6 +1,6 @@
 {
   "name": "lerpjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The method of linear interpolation (lerp) to easing animations.",
   "main": "lib/index.js",
   "files": [
