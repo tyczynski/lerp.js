@@ -6,6 +6,4 @@
  * @param {number} a - amount to interpolate between x and y
  * @return {number}
  */
-module.exports = function lerp(x, y, a) {
-  return (1 - a) * x + a * y;
-};
+module.exports = (x, y, a) => (1 - a) * x + a * y;
