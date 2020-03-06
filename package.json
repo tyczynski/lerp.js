@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "description": "The method of linear interpolation (lerp) to easing animations.",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib",
     "src"
