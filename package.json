@@ -31,7 +31,7 @@
   },
   "licenses": [
     {
-      "type": "Unlicense",
+      "type": "MIT",
       "url": "https://github.com/tyczynski/lerp.js/blob/master/LICENSE"
     }
   ],
