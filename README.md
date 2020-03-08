@@ -18,4 +18,4 @@ lerp(0, 100, 0.2); // => 20
 
 ## License
 
-[Unlicense](LICENSE) | [Przemysław Tyczyński](https://tyczynski.pl)
+[MIT](LICENSE) | [Przemysław Tyczyński](https://tyczynski.pl)
